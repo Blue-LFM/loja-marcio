@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(0, 110, 255);
+    font-size: 100px;
+}
