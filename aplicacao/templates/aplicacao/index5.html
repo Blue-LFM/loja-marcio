@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './aplicacao/styles5.css'%}">
+</head>
+<body>
+    <h1 class="aaa">Descrições e Variações:</h1>
+    <h1 class="aaa">Bebidas</h1>
+
+    <div class="div-cards">
+        <div class="card">
+            <h2 class="titulo">Sucos</h2>
+            <p class="letra">Sabores: morango, uva, maçã, abacaxi, entre outros.</p>
+            <img class="imagem" src="{% static './aplicacao/imagens/sucos.jpg'%}" alt="pizza de frango">
+            <p class="letra">Preço: R$ 3,50</p>
+        </div>
+    
+        <div class="card">
+            <h2 class="titulo">Todinho</h2>
+            <p class="letra">Descrição: bebida de chocolate.</p>
+            <img class="imagem" src="{% static './aplicacao/imagens/todinho.webp'%}" alt="pizza de carne">
+            <p class="letra">Preço: R$ 2,50</p>
+        </div>
+    
+        <div class="card">
+            <h2 class="titulo">Água com Gás</h2>
+            <p class="letra">Descrição: água com gás (bem auto-explicativo)</p>
+            <img class="imagem" src="{% static './aplicacao/imagens/agua com gas.webp'%}" alt="pizza de calabresa">
+            <p class="letra">Preço: R$ 3,50</p>
+    
+        </div>
+    </div>
+    <a href="./">
+
+        <button class="botao" >Voltar a página principal</button>
+    </a>
+    
+</body>
+</html>
