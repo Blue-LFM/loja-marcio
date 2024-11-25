@@ -1,14 +1,59 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {
     margin: 0;
-    background-color: rgb(202, 202, 202);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    height: 100vh;
+    padding: 0;
+    background-color: #F1E1AD;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
 }
 
-h1 {
-    color: rgb(0, 110, 255);
-    font-size: 100px;
+.texto {
+    font-size: 80px;
+    text-align: center;
+    margin: 25px;
+
+}
+
+.div-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.aaa {
+    width: 350px;
+    height: 300px;
+
+}
+
+.card {
+    display: flex;
+    background-color: #362c1e;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.letra {
+    text-align: center;
+    background-color: #362c1e;
+    color: #F1E1AD;
+    font-size: 40px;
+}
+
+.imagem {
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    background-color: #362c1e;
 }
