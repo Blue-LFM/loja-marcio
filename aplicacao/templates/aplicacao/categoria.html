@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './aplicacao/styles2.css'%}">
+</head>
+<body>
+    <h1 class="aaa">Descrições e Variações:</h1>
+    <h1 class="aaa">Pizzas</h1>
+
+    <div class="div-cards">
+        {%for item in produtos %}
+        <div class="card">
+            <h2 class="titulo">{{item.nome}}</h2>
+            <p class="letra">{{item.descricao}}</p>
+            <img class="imagem" src="{{item.imagem}}" alt="pizza de frango">
+            <p class="letra">Preço: R$ {{item.preco}}</p>
+        </div>
+        {%endfor%}
+    </div>
+    <a href="./">
+
+        <button class="botao" >Voltar a página principal</button>
+    </a>
+    
+</body>
+</html>
